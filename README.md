@@ -161,7 +161,4 @@ Contribuições são bem-vindas! Siga estes passos:
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## ✉️ Contato
-
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@exemplo.com
-
-Link do Projeto: [https://github.com/seu-usuario/video-converter](https://github.com/seu-usuario/video-converter)
+briz.felipe@gmail.com
