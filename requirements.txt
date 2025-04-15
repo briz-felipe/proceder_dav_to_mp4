@@ -1,0 +1,5 @@
+opencv-python==4.9.0.80
+pandas==2.1.4
+asyncio==3.4.3
+python-dateutil==2.8.2
+numpy==1.26.2
