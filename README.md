@@ -47,7 +47,7 @@ Crie a seguinte estrutura de pastas (serão criadas automaticamente na primeira 
 video-converter/
 ├── input_videos/       # Coloque seus arquivos .dav aqui
 ├── output_videos/      # Arquivos MP4 convertidos serão salvos aqui
-├── img/                # Thumbnails gerados automaticamente
+├── img/                # Thumbnails gerados automaticamente (Desabilitado atualmente)
 ├── main.py             
 ├── README.md           # Este arquivo
 └── requirements.txt    # Dependências do projeto
