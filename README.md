@@ -58,7 +58,7 @@ video-converter/
 ### Conversão básica:
 
 ```bash
-python converter.py
+python main.py
 ```
 
 ### Opções avançadas:
