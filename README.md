@@ -39,19 +39,33 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🏗 Estrutura de Diretórios
+## 🏗 Estrutura de Diretórios (Recomendada vs Personalizada)
 
-Crie a seguinte estrutura de pastas (serão criadas automaticamente na primeira execução):
+### 🟢 Configuração Recomendada (Padrão)
+
+Crie a seguinte estrutura de pastas na raiz do projeto (elas também serão criadas automaticamente na primeira execução):
 
 ```
 video-converter/
-├── input_videos/       # Coloque seus arquivos .dav aqui
-├── output_videos/      # Arquivos MP4 convertidos serão salvos aqui
-├── img/                # Thumbnails gerados automaticamente (Desabilitado atualmente)
-├── main.py             
+├── input_videos/       # (Padrão) Coloque seus arquivos .dav aqui
+├── output_videos/      # (Padrão) Arquivos MP4 convertidos serão salvos aqui
+├── img/                # (Padrão) Thumbnails gerados automaticamente (opcional)
+├── main.py             # Script principal
 ├── README.md           # Este arquivo
 └── requirements.txt    # Dependências do projeto
 ```
+
+### 🔵 Configuração Personalizada (Avançado)
+
+Você pode usar caminhos absolutos em qualquer local do seu computador:
+
+1. **Edite diretamente no código**:
+   ```python
+   if __name__ == "__main__":
+       input_path = 'C:/caminho/absoluto/para/seus/videos'  # Modifique aqui
+       output_path = 'D:/outro/caminho/para/saida'          # Modifique aqui
+       # ...
+   ```
 
 ## ▶️ Como Executar
 
@@ -59,17 +73,6 @@ video-converter/
 
 ```bash
 python main.py
-```
-
-### Opções avançadas:
-
-Você pode modificar os caminhos padrão editando o arquivo `main.py` ou passando argumentos:
-
-```python
-if __name__ == "__main__":
-    input_path = 'caminho/para/seus/videos'  # Modifique aqui
-    output_path = 'caminho/para/saida'       # Modifique aqui
-    ...
 ```
 
 ## 🔄 Fluxo de Processamento
