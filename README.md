@@ -63,7 +63,7 @@ python main.py
 
 ### Opções avançadas:
 
-Você pode modificar os caminhos padrão editando o arquivo `converter.py` ou passando argumentos:
+Você pode modificar os caminhos padrão editando o arquivo `main.py` ou passando argumentos:
 
 ```python
 if __name__ == "__main__":
